@@ -310,7 +310,7 @@ body {
   
   /* === Sections (Hero, About, etc.) === */
   .container {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
     padding: 50px 40px;
     border-radius: 20px;

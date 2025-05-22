@@ -36,6 +36,34 @@ body {
     font-weight: 900;
     letter-spacing: 1.5px;
   }
+
+  /* === Footer === */
+  footer {
+    width: 100%;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 60px;
+  }
+
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+
+  .footer-content a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .footer-content a:hover {
+    color: #16a085;
+  }
+
   
   /* === GitHub Info in Header === */
   .github-info {
@@ -282,7 +310,7 @@ body {
   
   /* === Sections (Hero, About, etc.) === */
   .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px 40px;
     border-radius: 20px;
